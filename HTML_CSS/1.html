@@ -1,0 +1,123 @@
+<!-- website -- static
+web app -- dynamic
+
+developing a web application:
+developer's computer ---(deployment)--- real web server
+(local web server)
+
+accessing a web app:
+personal computer --- browser --- (http request) --- web server --- (http response)
+(personal computer and web server are connected to internet)
+http- hyper text transfer protocol
+
+web app: frontend, backend
+frontend: dynamic, responsive user interfaces
+backend: http server, service layer, database server
+
+web technologies:
+frontend:
+1) html --- basic web page
+2) css, bootstrap --- styling & responsivenes
+3) java script(programming lang), reactjs(js library)--- interactiveness
+backend:
+4) nodejs --- http server
+5) expressjs --- api's
+6) mongodb --- database
+
+JavaScript Full Stack: MERN (mongodb, expressjs, reactjs, nodejs) stack
+
+setup:
+editor (ide-integrated development environment) --- vs code
+web server (live server-ritwick dey from extensions)
+web browser (chrome)
+nodejs (a js runtime) -->
+
+
+<!-- HTML:
+Hyper text markup language(html 5)
+
+HTML Element:
+normal elements (opening tag ,closing tag): <element-name attributes>content</element-name>
+void elements (self-closing tag): <element-name attributes/>
+
+HTML document:
+shortcut: html:5
+<!DOCTYPE html> (to inform quirk or standard mode)
+<html> (root element)
+	<head></head> (document metadata header)
+	<body></body> (documents's visible content)
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+</head>
+<body>
+	<!-- text elements: headings, paragraphs, lists -->
+	<!-- headings -->
+	<h1>Welcome</h1>
+	<h2>Welcome</h2>
+	<h3>Welcome</h3>
+	<h4>Welcome</h4>
+	<h5>Welcome</h5>
+	<h6>Welcome</h6>
+	<!-- paragraphs -->
+	<p>this is a paragraph</p>
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita obcaecati saepe beatae eaque accusamus voluptas facere repellat praesentium voluptatem hic?</p>
+	<!-- lists: ordered, unordered -->
+	<ol>
+		<li>item-1</li>
+		<li>item-2</li>
+	</ol>
+	<ol start="10">
+		<li>item-1</li>
+		<li>item-2</li>
+	</ol>
+	<ol type="a">
+		<li>item-1</li>
+		<li>item-2</li>
+	</ol>
+	<ol type="I">
+		<li>item-1</li>
+		<li>item-2</li>
+	</ol>
+	<ul>
+		<li>item-1</li>
+		<li>item-2</li>
+	</ul>
+	<!-- nested list -->
+	<ul>
+		<li>1
+			<ul>
+				<li>a</li>
+				<li>b</li>
+			</ul>
+		</li>
+		<li>2
+			<ul>
+				<li>a</li>
+				<li>b</li>
+			</ul>
+		</li>
+	</ul>
+
+	<!-- hyperlink -->
+	<a href="">link</a>
+	<a href="https://www.google.com/">Google</a>
+	<a href="https://www.google.com/" target="_blank">Google</a>
+	<a href="2.html">second page</a>
+
+	<!-- image,video & audio elements -->
+	<!-- image -->
+	<img src="http://wonderfulengineering.com/wp-content/uploads/2016/01/nature-wallpapers-8.jpg" width="500px" alt="this image is not available">
+	<img src="../assets/1.jpg" width="500px" alt="">
+	<!-- video -->
+	<video src="../assets/sample_video.mp4" width="500px" controls></video>
+	<!-- audio -->
+	<audio src="../assets/sample_audio.mp3" controls></audio>
+
+
+</body>
+</html>
