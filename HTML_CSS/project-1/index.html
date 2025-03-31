@@ -1,0 +1,37 @@
+<!-- CSS:
+Cascading style sheets
+
+syntax:
+selector{
+    property: value;
+    property: value;
+    .....
+}
+selector: type selector, id selector, class selector, attribute selector, psuedo-class selector, combinator
+
+adding css:
+1) internal css
+2) inline css
+3) external css (mostly preferred) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- internal css -->
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>heading 1</h1>
+    <!-- inline css -->
+    <h2 style="color: green">heading 2</h2>
+    <h3>heading 3</h3>
+</body>
+</html>
