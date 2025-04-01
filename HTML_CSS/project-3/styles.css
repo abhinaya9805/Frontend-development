@@ -1,0 +1,40 @@
+/* h1 {
+    display: inline;
+} */
+
+/* h1,h2 {
+    display: inline;
+} */
+
+a {
+    display: block;
+}
+
+img {
+    width: 400px;   
+}
+
+/* p {
+    width: 400px;
+} */
+
+.first {
+    text-align: center;
+    color: darkmagenta;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.second {
+    text-align: right;
+    color: red;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+span {
+    color: orange;
+    font-style: italic;
+    font-weight: 100;
+}

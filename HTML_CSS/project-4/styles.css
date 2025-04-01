@@ -1,0 +1,24 @@
+a {
+    font-size: 50px;
+    text-decoration: none;
+    color: green;
+}
+
+a:visited {
+    color: orangered;
+}
+
+a:focus {
+    font-family: 'Courier New', Courier, monospace;
+    color:darkmagenta;
+}
+
+/* hover is used for all other elements also */
+a:hover {
+    font-size: 80px;
+    color: pink;
+}
+
+a:active {
+    color: cyan;
+}
