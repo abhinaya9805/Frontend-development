@@ -1,0 +1,55 @@
+/* reset styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 25px 10px;
+    background-image: linear-gradient(black,grey);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 30px 10px;
+    color: white;
+}
+
+main {
+    min-height: 65vh;
+}
+
+.emp-profile {
+    width: 280px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 2px 2px 15px grey;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: orangered;
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 600;
+    padding: 5px 10px;
+}

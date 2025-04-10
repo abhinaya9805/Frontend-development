@@ -1,0 +1,30 @@
+:root {
+    --heading-color: blue;
+    --bg-color: orange;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: var(--heading-color);
+    background-color: var(--bg-color);
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 5px solid red;
+    padding: 10px;
+    /* include border and padding */
+    box-sizing: border-box;
+}
+
+/* width = width of the content + left pd + right pd + left br + right br */
+

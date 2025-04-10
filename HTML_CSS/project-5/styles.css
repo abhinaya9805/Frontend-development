@@ -1,0 +1,18 @@
+body {
+    /* background-color: antiquewhite; */
+    /* background-image: linear-gradient(to right,red,orange,yellow); */
+    background: greenyellow;
+    background-image: url(../../assets/2.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 500px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: aqua;
+}

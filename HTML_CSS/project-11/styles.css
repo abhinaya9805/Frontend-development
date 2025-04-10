@@ -1,0 +1,24 @@
+table {
+    width: 800px;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 1.5rem;
+    background-color: lightblue;
+}
+
+thead {
+    background-color: rgb(0, 114, 114);
+    color: white;
+}
+
+table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 15px 10px;
+}
+
+tr:hover {
+    background-color: orange;
+    color: white;
+    font-size: 1.6rem;
+}
