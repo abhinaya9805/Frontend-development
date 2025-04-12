@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 400px;
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+
+header {
+    background-image: url(../../assets/2.jpg);
+    padding: 150px;
+}
+
+header h1 {
+    color: orange;
+    font-size: 3rem;
+}
+
+header p {
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+main {
+    margin: 50px 60px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+section img {
+    width: 150px;
+}
+
+.item {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+    position: relative;
+}
+
+.item button {
+    background-color: orangered;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 35px 0px;
+    font-size: 1.1rem;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+.wt-logo {
+    width: 50px;
+    position: fixed;
+    bottom: 200px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+.item .new-logo {
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

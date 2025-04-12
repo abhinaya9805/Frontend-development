@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000px;
+}
+
+h1 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}          
+
+.parent {
+    border: 2px solid black;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    /* position: relative; */
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    color: white;
+}
+
+.child1 {
+    background-color: red;
+    /* position: relative;
+    left: 200px;
+    top: 200px; */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.child2 {
+    background-color: green;
+    position: sticky;
+    top: 50px;
+}
+
+.child3 {
+    background-color: blue;
+    position: fixed;
+}

@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* width: 700px; */
+    max-width: 700px;
+    height: 700px;
+    border: 2px solid black;
+    margin: 20px auto;
+    font-size: 2rem;
+    color: white;
+    /* create flex container */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    /* horizontal alignment */
+    justify-content: space-evenly;
+    /* vertical alignment */
+    align-items: center;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    /* flex-grow: 1; */
+}
+
+.child1 {
+    /* width: 100px;
+    height: 100px; */
+    background-color: red;
+    /* flex-grow: 1; */
+    align-self: flex-start;
+}
+
+.child2 {
+    /* width: 100px;
+    height: 100px; */
+    background-color: green;
+    /* flex-grow: 2; */
+    align-self: center;
+}
+
+.child3 {
+    /* width: 100px;
+    height: 100px; */
+    background-color: blue;
+    /* flex-grow: 3; */
+    align-self: flex-end;
+}
+
+
+
+/* 
+700-300=400
+free space=400px
+ratio=1:2:3==6
+400/6=66 (approx)
+1 share- 66px+100 = 166
+2 shares- 132px+100 = 232
+3 shares- 198px+100 = 298
+*/
